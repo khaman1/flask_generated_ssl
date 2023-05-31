@@ -8,3 +8,6 @@ def view_ssl_file(filename):
         file_content = f.read()
 
     return file_content 
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=80)
